@@ -17,7 +17,7 @@ To address this challenge, Python tools were built to electronically consume pos
 
 Models were evaluated using several metrics including accuracy, confusion matrices and Receiver Operator Curves (ROC).  An example of model evaluation can be seen in the graph below.
 
-<img src="../images/DIY_vs_woodworking_ROC.png" alt="Process" width="400"/>
+<img src="./images/DIY_vs_woodworking_ROC.png" alt="Process" width="400"/>
 
 
 ### Conclusions and Recommendations
@@ -32,7 +32,7 @@ Evaluating such a large set of variations, allows us to draw some conclusions:
 
 * When comparing text fields, using title, selftext and comments resulted in the best performance but adding comments is computationally intensive and provides only marginal benefit.
 
-<img src="../images/Project_3_process.png" alt="Process" width="400"/>
+<img src="./images/Project_3_process.png" alt="Process" width="400"/>
 
 ### Data
 
