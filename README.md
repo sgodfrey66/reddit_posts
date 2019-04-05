@@ -15,9 +15,9 @@ Employing various data cleaning and modeling techniques yielded tools with predi
 
 To address this challenge, Python tools were built to electronically consume posts through a connection to a simple JSON Application Programming Interface (API) available at Reddit Uniform Resource Locators (URL).  These posts and associated comments were stored in a SQL database running on Amazon Web Services (AWS) for further study.  This analysis consisted of cleaning, standardizing and vectorizing text fields and then using these data in four classification models to determine the best modeling technique (among these choices).  The Python tools consisted of custom class objects for retrieving Reddit posts and comments and specific functions for evaluating a large number of variable and model combinations.
 
-Models were evaluated using several metrics including accuracy, confusion matrices and Receiver Operator Curves (ROC).  An example of model evaluation can be seen in the graph below.
+Models were evaluated using several metrics including accuracy, confusion matrices and Receiver Operating Characteristic (ROC) curves.  An example of such model evaluation can be seen in the graph below.
 
-<img src="./images/DIY_vs_woodworking_ROC.png" alt="Process" width="400"/>
+<img src="./images/DIY_vs_woodworking_ROC.png" alt="Process" width="600"/>
 
 
 ### Conclusions and Recommendations
@@ -32,7 +32,7 @@ Evaluating such a large set of variations, allows us to draw some conclusions:
 
 * When comparing text fields, using title, selftext and comments resulted in the best performance but adding comments is computationally intensive and provides only marginal benefit.
 
-<img src="./images/Project_3_process.png" alt="Process" width="400"/>
+<img src="./images/Project_3_process.png" alt="Process" width="600"/>
 
 ### Data
 
